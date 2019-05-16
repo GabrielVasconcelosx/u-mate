@@ -16,6 +16,7 @@ $(document).ready(function(){
             $('#tab3').show();
             progress.text('Esperar');
             progress.css('width','100%')
+            $('#btn-singup').hide();
         }
     });
 

@@ -46,6 +46,10 @@
 
 }
 
+.title-primary {
+	color: #4c0f4f;
+}
+
 .title-block {
 	position: absolute;
 	z-index: 10;
