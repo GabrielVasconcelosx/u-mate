@@ -20,7 +20,7 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item active ml-3">
-		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item active ml-3">
 		        <a class="nav-link" href="#">Compartilhe</a>
@@ -53,18 +53,234 @@
 
 <div class="container mb-4 mt-4">
 	<div class="progress">
-		  <div class="progress-bar" style="width:25%;background-color: #4c0f4f;" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Dados</div>
+		  <div class="progress-bar bg-gradient" id="progress" style="width:33%;" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Dados</div>
 	</div>
-	<div class="row">
-		<div class="col-md-6">
-			
-		</div>
-		<div class="col-md-6">
+	<input type="hidden" name="status" id="status" value="1" readonly>
 
+	<div class="row mt-5" id="tab1">
+		<div class="col-md-6">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Nome">
+				</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Sobrenome">
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="email@email.com">
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="RA">
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="CPF">
+			</div>
 		</div>
 	</div>
+
+
+
+
+
+	
+<div id="tab2" class="mt-5">
+
+		<ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Casa</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Carona</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Grupo de Estudo</a>
+				</li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+						<div class="row">
+								<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Estado">
+										</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Cidade">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Endereço">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Cep">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Valor">
+									</div>
+								</div>
+							</div>
+
+				</div>
+				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+						<div class="row ">
+								<div class="col-md-6">
+										<div class="form-group">
+											<label for="">Vagas</label>
+											<input type="number" class="form-control" value="1" placeholder="">
+										</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="">Modelo</label>
+										<input type="text" class="form-control" placeholder="Ferrari">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<label for="">Carona</label>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="De">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Até">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Valor">
+									</div>
+								</div>
+								<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Observação">
+										</div>
+									</div>
+							</div>
+
+				</div>
+				<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+						<div class="row">
+								<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Nome">
+										</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Curso">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+											<label for="">Materia</label>
+										<select class="form-control">											
+											<option value="" selected>Selecione uma Matéria</option>
+											<option value="">Matematica</option>
+											<option value="">Português</option>
+											<option value="">Ingles</option>
+											<option value="">Geografia</option>
+											<option value="">Direito Penal</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-6">
+										<div class="form-group">
+											<label for="">Vagas</label>
+											<input type="number" class="form-control" value="1">
+										</div>
+									</div>
+								<div class="col-md-12">
+										<div class="form-group">
+											<label for="">Local</label>
+											<input type="text" class="form-control" placeholder="Praça de Alimentação">
+										</div>
+									</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Dia">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Horario">
+									</div>
+								</div>
+							</div>
+
+				</div>
+			</div>
+
+	</div>
+
+
+<div id="tab3" class="mt-5 text-center">
+
+<h3 class="text-center mb-5 mt-5">Compartilhado agora aguarde os convites</h3>
+
+<table class="table table-striped">
+		<thead>
+			<tr>
+				<th scope="col">Nome</th>
+				<th scope="col">Quer ?</th>
+				<th scope="col">Perfil</th>
+				<th scope="col">Aceitar/Recusar</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Henrique Moreno</th>
+				<td>Carona</td>
+				<td><a href="#" class="btn btn-outline-primary">Perfil</a></td>
+				<td>
+					<a href="" class="btn btn-success ml-3">Aceitar</a>
+					<a href="" class="btn btn-danger ml-3">Recusar</a>
+				</td>
+			</tr>
+			<tr>
+					<th scope="row">Mateus Tozzi</th>
+					<td>Casa</td>
+					<td><a href="#" class="btn btn-outline-primary">Perfil</a></td>
+					<td>
+						<a href="" class="btn btn-success ml-3">Aceitar</a>
+						<a href="" class="btn btn-danger ml-3">Recusar</a>
+					</td>
+				</tr>
+				<tr>
+						<th scope="row">Lucas Roqueiro</th>
+						<td>Grupo de Estudos</td>
+						<td><a href="#" class="btn btn-outline-primary">Perfil</a></td>
+						<td>
+							<a href="" class="btn btn-success ml-3">Aceitar</a>
+							<a href="" class="btn btn-danger ml-3">Recusar</a>
+						</td>
+					</tr>
+		</tbody>
+	</table>
+	
 </div>
 
+	<div class="col-md-12 text-center"> <button id="btn-singup" class="btn btn-primary" style="border:none!important;background-color:#4c0f4f!important">Proximo</button></div>
+
+</div>
 
 <footer class="pt-2	">
 	<div class="bg-gradient pt-5 pb-5">
@@ -109,6 +325,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+<script src="js/index.js"></script>
 </body>
 </html>
