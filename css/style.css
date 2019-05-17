@@ -29,6 +29,12 @@
 	background-color: #ccc;
 }
 
+.bg-sugest {
+	background-color: rgb(255, 255, 255);
+	height: 150px;
+	border: 1px solid rgb(144, 0, 173);
+}
+
 .img-estudos {
 	height: 300px;
 	width: 100%;
@@ -71,9 +77,37 @@
 
 .bg-filter {
 	height: 500px;
-	background-color: #ccc;
+	background-color: rgb(255, 255, 255);
+	color: #000;
+	border: 1px solid rgb(144, 0, 173);
 }
 
+.border-login {
+	border: 1px solid rgb(144, 0, 173);
+}
+
+.mini-img {
+	height: 120px;
+	width: 120px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/profile.jpg');
+}
+
+.mini-img2 {
+	height: 120px;
+	width: 120px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/profile2.jpg');
+}
+.mini-img3 {
+	height: 120px;
+	width: 120px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/profile3.jpg');
+}
 
 .parallax {
   /* The image used */
