@@ -7,7 +7,7 @@
 }
 .img-carona {
 	height: 300px;
-	width: 300px;
+	width: 100%;
 	background-image: url('../img/1.jpeg'); 
 	background-size: cover;
 	background-position: center;
@@ -17,7 +17,7 @@
 
 .img-lar {
 	height: 300px;
-	width: 300px;
+	width: 100%;
 	background-image: url('../img/2.jpeg'); 
 	background-size: cover;
 	background-position: center;
@@ -31,7 +31,7 @@
 
 .img-estudos {
 	height: 300px;
-	width: 300px;
+	width: 100%;
 	background-image: url('../img/3.jpg'); 
 	background-size: cover;
 	background-position: center;
@@ -42,7 +42,8 @@
 .bg-primary-filter{
 	background: #4c0f4f;
 	height: 300px;
-	width: 300px;
+	width: 100%;
+	margin-top: 30px; 
 
 }
 
@@ -66,6 +67,11 @@
 	color: -moz-linear-gradient(left, #4c0f4f 0%, #ad1cb5 100%);
 	margin-left: 30%;
 
+}
+
+.bg-filter {
+	height: 500px;
+	background-color: #ccc;
 }
 
 
