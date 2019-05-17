@@ -94,6 +94,14 @@
 	background-image: url('../img/profile.jpg');
 }
 
+.profile-img {
+	height: 30px;
+	width: 30px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/profile.jpg');
+}
+
 .mini-img2 {
 	height: 120px;
 	width: 120px;
@@ -121,4 +129,18 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.btn-outline-success:hover {
+
+    color: #fff!important;
+    background-color: #b000fe!important;
+    border-color: #d83bff!important;
+}
+
+.btn-outline-success {
+
+    color: #a728a6!important;
+    border-color: #a028a7!important;
+
 }
