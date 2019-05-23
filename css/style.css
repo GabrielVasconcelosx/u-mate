@@ -144,3 +144,39 @@
     border-color: #a028a7!important;
 
 }
+.chat{
+	padding: 15px;
+	width: 95%;
+	height: 400px;
+}
+.onMessage{
+	display: flex;
+}
+.onChat{
+	width: 100%;
+}
+.onChat > .onMessage{
+	padding: 15px;
+}
+.yourMessage{
+	background-color: rgb(233, 233, 233);
+	border: 1px solid rgb(175, 175, 175);
+	border-radius: 5px;
+	padding: 10px;
+	float: left;
+}
+.myMessage{
+	background-color: rgb(215, 126, 233);
+	border: 1px solid rgb(144, 0, 173);
+	border-radius: 5px;
+	padding: 10px;
+	float: right;
+}
+.message{
+	position: relative;
+	clear: both;
+	width: 100%;
+}
+.submit{
+	display: flex;
+}
