@@ -109,6 +109,15 @@ a:hover {
 	width: 30%;
 }
 
+.img-default{
+	height: 150px;
+	width: 150px;
+	border-radius: 80px;
+	border: 1px #d83bff solid;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/profile.png');
+}
 
 .logo {
 	width: 100%;
