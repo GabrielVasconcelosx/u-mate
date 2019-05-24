@@ -93,6 +93,30 @@
 	background-size: cover;
 	background-image: url('../img/profile.jpg');
 }
+a {
+	color: #832f87;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:hover {
+	color: #832f87;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.logo-footer {
+	width: 30%;
+}
+
+
+.logo {
+	width: 100%;
+}
+.a-logo{
+	width: 10%;
+}
+
 
 .profile-img {
 	height: 30px;
@@ -100,6 +124,14 @@
 	background-position: center;
 	background-size: cover;
 	background-image: url('../img/profile.jpg');
+}
+
+.profile-default {
+	height: 30px;
+	width: 30px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/profile.png');
 }
 
 .mini-img2 {
@@ -131,6 +163,14 @@
   background-size: cover;
 }
 
+.profile-img2 {
+	height: 30px;
+	width: 30px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/profile2.jpeg');
+}
+
 .btn-outline-success:hover {
 
     color: #fff!important;
@@ -151,6 +191,7 @@
 }
 .onMessage{
 	display: flex;
+
 }
 .onChat{
 	width: 100%;
