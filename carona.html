@@ -10,46 +10,59 @@
 </head>
 <body>
 
-<div class="bg-gradient">
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-dark">
-		  	<a class="navbar-brand a-logo" href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active ml-3   ">
-		        <a class="nav-link" href="index.html">Home</a>
-		      </li>
-		      <li class="nav-item active ml-3">
-		        <a class="nav-link" href="compartilhe.html">Compartilhe</a>
-		      </li>
-		       <li class="nav-item active ml-3">
-		        <a class="nav-link" href="#">Ache uma Carona</a>
-		      </li>
-		       <li class="nav-item active ml-3">
-		        <a class="nav-link" href="casa.html">Ache uma Moradia</a>
-		      </li>
-		       <li class="nav-item active ml-3">
-		        <a class="nav-link" href="estudos.html">Ache seu grupo de estudos</a>
-		      </li>
-				</ul>
+		<div class="bg-gradient">
+				<div class="container">
+					<nav class="navbar navbar-expand-lg navbar-dark">
+									<a class="navbar-brand a-logo d-none d-sm-block" href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+									<a class="navbar-brand a-logo d-block d-sm-none" href="index.html"><img style="width: 100px;" src="img/logo.png" alt="" class="logo"></a>
+			
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+			
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item active ml-3">
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item active ml-3">
+									<a class="nav-link" href="compartilhe.html">Compartilhe</a>
+								</li>
+								 <li class="nav-item active ml-3">
+									<a class="nav-link" href="carona.html">Ache uma Carona</a>
+								</li>
+								 <li class="nav-item active ml-3">
+									<a class="nav-link" href="casa.html">Ache uma Moradia</a>
+								</li>
+								<li class="nav-item active ml-3">
+									<a class="nav-link" href="estudos.html">Ache seu grupo de estudos</a>
+								</li>
+								<li class="nav-item text-center active ml-3 mt-3 mb-3 d-block d-lg-none">
+									<div class="row">
+											<a  class="btn btn-success ml-4" href="perfil.html">
+													Perfil 	
+											</a>
+											<a class="btn btn-success ml-4" href="pedidos.html">
+													Pedidos <span class="badge badge-light">4</span>
+											</a>
+											<a class="btn btn-success ml-4" href="chat.html">
+													Conversas Abertas <span class="badge badge-light">1</span>
+											</a>
+									</div>
+									
+								</li>
+							</ul>
+						</div>
+						<div class=" ml-3 rounded-circle profile-img mr-4 d-none d-lg-block""></div>						
+						<a href="cadastrar.html" class="text-white mt-2 d-none d-lg-block">Jorge</a>	
+					</nav>
 				</div>
-				<div class=" ml-3 rounded-circle profile-img mr-4"></div>
-				<a href="perfil.html" class="text-white mt-2">Ola, Lula</a>				
-
-
-		  </div>
-		</nav>
-	</div>
-</div>
+			</div>
 
 <div class="container mb-5 mt-5">
     <h1 class="title-primary">Carona</h1>
     <div class="row">
-        <div class="col-md-3 bg-filter">
+        <div class="col-lg-3 col-md-12 bg-filter" style="height:600px;">
                 <div class="col-md-12">
                     <h4 class="mt-3 purble">Filtros</h4>
                     <div class="form-group">
@@ -82,8 +95,42 @@
 											<button class="btn btn-outline-success">Pesquisar</button>
 										</div>
 								</div>
-        </div>
-        <div class="col-md-9">
+				</div>
+				
+				<div class="container mb-5 mt-5 d-block d-lg-none">
+						<div class="row">
+							<div class="col-md-6 col-xs-12">
+								<div class="card" style="width: 100%;">
+										<div style="height:400px; background-image: url('img/profile.jpg'); background-size: cover; background-position: center"></div>
+										<div class="card-body">
+												<h5 class="card-title">Marcos Alberto</h5>
+												<h6 class="text-black ">Palio</h6>		
+												<h6 class="text-black "><b>Ajuda de Custo</b> R$ 22,00</h6>
+												<h6 class="text-black mt-4">De Rua Nove de Julho <b> Até</b> USJT Mooca as <b>15h</b></h6>
+												<button class="btn btn-outline-success btn-sm mt-2 ">Pedir Carona</button>
+									</div>
+								</div>
+							</div>
+					
+							<div class="col-md-6 col-xs-12">
+									<div class="card" style="width: 100%;">
+										<div style="height:400px; background-image: url('img/profile3.jpg'); background-size: cover; background-position: center"></div>
+											<div class="card-body">
+													<h5 class="card-title">Antonio Silva</h5>
+													<h6 class="text-black">Fiat Uno</h6>
+													<h6 class="text-black"><b>Ajuda de Custo</b> R$ 12,00</h6>
+													<h6 class="text-black">De Rua Tristeza do Jeca <b> Até</b> USJT Mooca as <b>16h</b></h6>
+
+													<button class="btn btn-outline-success btn-sm mt-2 ">Pedir Carona</button>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+									 
+
+
+        <div class="col-md-9 d-none d-lg-block">
 						<div class="container bg-sugest">
 								<div class="row ">
 									<div class="col-md-2">

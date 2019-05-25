@@ -10,21 +10,23 @@
 </head>
 <body>
 
-<div class="bg-gradient">
-	<div class="container">
+		<div class="bg-gradient">
+				<div class="container">
 					<nav class="navbar navbar-expand-lg navbar-dark">
-						<a class="navbar-brand a-logo" href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<a class="navbar-brand a-logo d-none d-sm-block" href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+									<a class="navbar-brand a-logo d-block d-sm-none" href="index.html"><img style="width: 100px;" src="img/logo.png" alt="" class="logo"></a>
+			
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 			
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto">
 								<li class="nav-item active ml-3">
-									<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="index.html">Home</a>
 								</li>
 								<li class="nav-item active ml-3">
-									<a class="nav-link" href="#">Compartilhe</a>
+									<a class="nav-link" href="compartilhe.html">Compartilhe</a>
 								</li>
 								 <li class="nav-item active ml-3">
 									<a class="nav-link" href="carona.html">Ache uma Carona</a>
@@ -32,16 +34,33 @@
 								 <li class="nav-item active ml-3">
 									<a class="nav-link" href="casa.html">Ache uma Moradia</a>
 								</li>
-								 <li class="nav-item active ml-3">
+								<li class="nav-item active ml-3">
 									<a class="nav-link" href="estudos.html">Ache seu grupo de estudos</a>
+								</li>
+								<li class="nav-item text-center active ml-3 mt-3 mb-3 d-block d-lg-none">
+									<div class="row">
+											<a  class="btn btn-success ml-4" href="perfil.html">
+													Perfil 	
+											</a>
+											<a class="btn btn-success ml-4" href="pedidos.html">
+													Pedidos <span class="badge badge-light">4</span>
+											</a>
+											<a class="btn btn-success ml-4" href="chat.html">
+													Conversas Abertas <span class="badge badge-light">1</span>
+											</a>
+									</div>
+									<li class="nav-item active ml-3 d-block d-lg-none">
+										<a class="nav-link" href="index.html">Sair</a>
+									</li>
 								</li>
 							</ul>
 						</div>
-						<div class=" ml-3 rounded-circle profile-default mr-4"></div>
-						<h6 class="text-white mt-2">Sair</h6>		
+						
+						<div class=" ml-3 rounded-circle profile-img mr-4 d-none d-lg-block"></div>
+						<a href="perfil.html" class="text-white mt-2 d-none d-lg-block">Sair</a>	
 					</nav>
-    </div>
-</div>
+				</div>
+			</div>
             
 <div class="container">
     <div class="row center-block m-auto p-5">
@@ -65,8 +84,14 @@
                 <label for="">Sobrenome</label>
                 <input type="text" class="form-control mb-3" placeholder="">
             </div>
-        </div>
-        <div class="col-md-12 m-auto">
+		</div>
+		<div class="col-md-6 m-auto">
+			<div class="form-group">
+				<label for="">Data de Nascimento</label>
+				<input type="text" class="form-control mb-3" placeholder="">
+			</div>
+		</div>
+        <div class="col-md-6 m-auto">
                 <div class="form-group">
                     <label for="">Curso</label>
                     <select class="form-control">											

@@ -230,3 +230,15 @@ a:hover {
 .submit{
 	display: flex;
 }
+
+.btn-success {
+	color: #fff;
+	background-color: #832f87;
+	border: 1px solid #ad1cb5;
+}
+
+.btn-success:hover {
+	color: #fff;
+	background-color: #832f87;
+	border: 1px solid #ad1cb5;
+}

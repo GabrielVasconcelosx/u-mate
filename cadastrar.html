@@ -10,40 +10,56 @@
 </head>
 <body>
 
-<div class="bg-gradient">
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-dark">
-				<a class="navbar-brand a-logo" href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active ml-3">
-		        <a class="nav-link" href="index.html">Home</a>
-		      </li>
-		      <li class="nav-item active ml-3">
-		        <a class="nav-link" href="compartilhe.html">Compartilhe</a>
-		      </li>
-		       <li class="nav-item active ml-3">
-		        <a class="nav-link" href="carona.html">Ache uma Carona</a>
-		      </li>
-		       <li class="nav-item active ml-3">
-		        <a class="nav-link" href="casa.html">Ache uma Moradia</a>
-		      </li>
-		       <li class="nav-item active ml-3">
-		        <a class="nav-link" href="estudos.html">Ache seu grupo de estudos</a>
-		      </li>
-		    </ul>
+		<div class="bg-gradient">
+				<div class="container">
+					<nav class="navbar navbar-expand-lg navbar-dark">
+									<a class="navbar-brand a-logo d-none d-sm-block" href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+									<a class="navbar-brand a-logo d-block d-sm-none" href="index.html"><img style="width: 100px;" src="img/logo.png" alt="" class="logo"></a>
+			
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+			
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item active ml-3">
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item active ml-3">
+									<a class="nav-link" href="compartilhe.html">Compartilhe</a>
+								</li>
+								 <li class="nav-item active ml-3">
+									<a class="nav-link" href="carona.html">Ache uma Carona</a>
+								</li>
+								 <li class="nav-item active ml-3">
+									<a class="nav-link" href="casa.html">Ache uma Moradia</a>
+								</li>
+								<li class="nav-item active ml-3">
+									<a class="nav-link" href="estudos.html">Ache seu grupo de estudos</a>
+								</li>
+								<li class="nav-item text-center active ml-3 mt-3 mb-3 d-block d-lg-none">
+									<div class="row">
+											<a  class="btn btn-success ml-4" href="perfil.html">
+													Perfil 	
+											</a>
+											<a class="btn btn-success ml-4" href="pedidos.html">
+													Pedidos <span class="badge badge-light">4</span>
+											</a>
+											<a class="btn btn-success ml-4" href="chat.html">
+													Conversas Abertas <span class="badge badge-light">1</span>
+											</a>
+									</div>
+									<li class="nav-item active ml-3 d-block d-lg-none">
+										<a class="nav-link" href="login.html">Login</a>
+									</li>
+								</li>
+							</ul>
+						</div>
+						
+						<a href="login.html" class="text-white mt-2 d-none d-lg-block">Login</a>	
+					</nav>
+				</div>
 			</div>
-			<a href="login.html" style="text-decoration:none;" class="ml-2 text-white">Login | </a>
-			<a href="">&nbsp</a>
-			<a href="cadastrar.html" style="text-decoration:none;" class=" text-white">Cadastrar</a>
-
-		</nav>
-	</div>
-</div>
 
 <div class="container mt-5">
     <div class="row mt-5 mb-5">
@@ -82,13 +98,19 @@
                                 <input type="password" class="form-control mb-3" placeholder="Rua Alamda 78">
                             </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-3">
                             <div class="form-group">
                                     <label for="">CPF</label>
                                 <input type="password" class="form-control mb-3" placeholder="00000-000">
                             </div>
-                    </div>
-                    <div class="col-md-6">
+										</div>
+										<div class="col-md-4">
+												<div class="form-group">
+																<label for="">Data de Nascimento</label>
+														<input type="password" class="form-control mb-3" placeholder="00/00/0000">
+												</div>
+										</div>
+                    <div class="col-md-5">
                             <div class="form-group">
                                     <label for="">RA</label>
                                 <input type="password" class="form-control mb-3" placeholder="">
