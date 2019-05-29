@@ -19,5 +19,10 @@ $(document).ready(function(){
             $('#btn-singup').hide();
         }
     });
+    
+    $('#btn-pedido').click(function(){
+        alert('ola');
+        swal("Hello world!");
+    });
 
 });
