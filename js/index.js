@@ -20,9 +20,10 @@ $(document).ready(function(){
         }
     });
     
-    $('#btn-pedido').click(function(){
-        alert('ola');
-        swal("Hello world!");
+    $('.btn-outline-success ').on('click', function(){
+        $(this).html('<i class="fas fa-check"></i> Pedido Enviado');
+        toastr.success('Pedido enviado com sucesso')
+
     });
 
 });
