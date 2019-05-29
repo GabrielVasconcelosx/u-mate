@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
     
     $('.btn-outline-success ').on('click', function(){
-        $(this).html('<i class="fas fa-check"></i> Pedido Enviado');
+        $(this).html('<i class="fas fa-check"></i> Pedido Enviado').attr("disabled", true);;
         toastr.success('Pedido enviado com sucesso')
 
     });
