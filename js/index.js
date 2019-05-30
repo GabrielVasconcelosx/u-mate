@@ -26,4 +26,17 @@ $(document).ready(function(){
 
     });
 
+    $('#btnLogin').click(function(){
+        if ($('#login').val() != 'jose@mail.com') {
+            $('#alert').removeClass('d-none');
+        }
+        else {
+            setTimeout(function(){
+                    window.location.href = "http://u-mate.test/pedidos.html";
+                    toastr.success('Logado com Sucesso');
+            }, 10000);
+
+        }
+    });
+
 });
