@@ -230,6 +230,16 @@ a:hover {
 .submit{
 	display: flex;
 }
+.page-link {
+	position: relative;
+	display: block;
+	padding: 0.5rem 0.75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: #ad1cb5!important;
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+}
 
 .btn-success {
 	color: #fff;
